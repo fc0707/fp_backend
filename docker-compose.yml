@@ -1,0 +1,6 @@
+﻿services:
+  loginoperations:
+    image: loginoperations
+    build:
+      context: .
+      dockerfile: Dockerfile
